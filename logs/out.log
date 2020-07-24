@@ -1,0 +1,114 @@
+[INFO][2020-05-20 18:16:23.962][main][com.webank.wecube.demo.springboot.DemoSpringBootApplication][][][][Starting DemoSpringBootApplication on tongzhang-NB with PID 8436 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)][]
+[INFO][2020-05-20 18:16:23.978][main][com.webank.wecube.demo.springboot.DemoSpringBootApplication][][][][The following profiles are active: dev][]
+[INFO][2020-05-20 18:16:25.290][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][][][][Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)][]
+[INFO][2020-05-20 18:16:25.650][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][][][][Tomcat initialized with port(s): 8080 (http)][]
+[INFO][2020-05-20 18:16:25.665][main][org.apache.catalina.core.StandardService][][][][Starting service [Tomcat]][]
+[INFO][2020-05-20 18:16:25.665][main][org.apache.catalina.core.StandardEngine][][][][Starting Servlet engine: [Apache Tomcat/9.0.29]][]
+[INFO][2020-05-20 18:16:25.962][main][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][][][][Initializing Spring embedded WebApplicationContext][]
+[INFO][2020-05-20 18:16:25.962][main][org.springframework.web.context.ContextLoader][][][][Root WebApplicationContext: initialization completed in 1906 ms][]
+[ERROR][2020-05-20 18:16:26.103][main][org.springframework.boot.web.embedded.tomcat.TomcatStarter][][][][Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthContributorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class][]
+[INFO][2020-05-20 18:16:26.150][main][org.apache.catalina.core.StandardService][][][][Stopping service [Tomcat]][]
+[WARN][2020-05-20 18:16:26.165][main][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][][][][Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat][]
+[INFO][2020-05-20 18:16:26.181][main][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener][][][][
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.][]
+[ERROR][2020-05-20 18:16:26.197][main][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][][][][
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+][]
+[INFO][2020-05-20 18:17:07.610][main][com.webank.wecube.demo.springboot.DemoSpringBootApplication][][][][Starting DemoSpringBootApplication on tongzhang-NB with PID 11492 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)][]
+[INFO][2020-05-20 18:17:07.610][main][com.webank.wecube.demo.springboot.DemoSpringBootApplication][][][][The following profiles are active: dev][]
+[INFO][2020-05-20 18:17:08.923][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][][][][Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)][]
+[INFO][2020-05-20 18:17:09.314][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][][][][Tomcat initialized with port(s): 8080 (http)][]
+[INFO][2020-05-20 18:17:09.329][main][org.apache.catalina.core.StandardService][][][][Starting service [Tomcat]][]
+[INFO][2020-05-20 18:17:09.329][main][org.apache.catalina.core.StandardEngine][][][][Starting Servlet engine: [Apache Tomcat/9.0.29]][]
+[INFO][2020-05-20 18:17:09.642][main][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][][][][Initializing Spring embedded WebApplicationContext][]
+[INFO][2020-05-20 18:17:09.642][main][org.springframework.web.context.ContextLoader][][][][Root WebApplicationContext: initialization completed in 1969 ms][]
+[ERROR][2020-05-20 18:17:09.798][main][org.springframework.boot.web.embedded.tomcat.TomcatStarter][][][][Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthContributorAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class][]
+[INFO][2020-05-20 18:17:09.845][main][org.apache.catalina.core.StandardService][][][][Stopping service [Tomcat]][]
+[WARN][2020-05-20 18:17:09.845][main][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][][][][Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat][]
+[INFO][2020-05-20 18:17:09.861][main][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener][][][][
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.][]
+[ERROR][2020-05-20 18:17:09.861][main][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][][][][
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+][]
+[INFO][2020-05-20 18:21:07.084][main][com.webank.wecube.demo.springboot.DemoSpringBootApplication][][][][Starting DemoSpringBootApplication on tongzhang-NB with PID 11596 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)][]
+[INFO][2020-05-20 18:21:07.084][main][com.webank.wecube.demo.springboot.DemoSpringBootApplication][][][][The following profiles are active: dev][]
+[INFO][2020-05-20 18:21:08.303][main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][][][][Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)][]
+[INFO][2020-05-20 18:21:08.662][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][][][][Tomcat initialized with port(s): 8080 (http)][]
+[INFO][2020-05-20 18:21:08.662][main][org.apache.catalina.core.StandardService][][][][Starting service [Tomcat]][]
+[INFO][2020-05-20 18:21:08.662][main][org.apache.catalina.core.StandardEngine][][][][Starting Servlet engine: [Apache Tomcat/9.0.29]][]
+[INFO][2020-05-20 18:21:08.990][main][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][][][][Initializing Spring embedded WebApplicationContext][]
+[INFO][2020-05-20 18:21:08.990][main][org.springframework.web.context.ContextLoader][][][][Root WebApplicationContext: initialization completed in 1844 ms][]
+[INFO][2020-05-20 18:21:09.553][main][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][][][][Initializing ExecutorService 'applicationTaskExecutor'][]
+[INFO][2020-05-20 18:21:09.818][main][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][][][][Initializing ExecutorService 'taskScheduler'][]
+[INFO][2020-05-20 18:21:09.850][main][org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver][][][][Exposing 2 endpoint(s) beneath base path '/actuator'][]
+[INFO][2020-05-20 18:21:09.928][main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][][][][Tomcat started on port(s): 8080 (http) with context path ''][]
+[INFO][2020-05-20 18:21:09.928][main][com.webank.wecube.demo.springboot.DemoSpringBootApplication][][][][Started DemoSpringBootApplication in 3.328 seconds (JVM running for 4.611)][]
+[INFO][2020-05-20 18:21:09.943][scheduling-1][monitorLogger][][][][{"metric_1":"2","metric_2":"0.9397441","metric_3":"2.1082781680139635"}][]
+[INFO][2020-05-20 18:21:14.897][scheduling-1][monitorLogger][][][][{"metric_1":"7","metric_2":"0.8086566","metric_3":"0.8891102865840539"}][]
+[INFO][2020-05-20 18:21:19.898][scheduling-1][monitorLogger][][][][{"metric_1":"12","metric_2":"0.19563675","metric_3":"-0.13698391853041442"}][]
+[INFO][2020-05-20 18:21:24.899][scheduling-1][monitorLogger][][][][{"metric_1":"20","metric_2":"0.65916353","metric_3":"-0.06842518671394515"}][]
+[INFO][2020-05-20 18:21:29.900][scheduling-1][monitorLogger][][][][{"metric_1":"29","metric_2":"0.0462811","metric_3":"0.3458910701823035"}][]
+[INFO][2020-05-20 18:21:34.900][scheduling-1][monitorLogger][][][][{"metric_1":"33","metric_2":"0.22378379","metric_3":"0.270922626028521"}][]
+[INFO][2020-05-20 18:21:39.903][scheduling-1][monitorLogger][][][][{"metric_1":"38","metric_2":"0.15091842","metric_3":"0.1520857201309171"}][]
+[INFO][2020-05-20 18:21:44.905][scheduling-1][monitorLogger][][][][{"metric_1":"40","metric_2":"0.94186974","metric_3":"-0.4096678733270854"}][]
+[INFO][2020-05-20 18:21:49.905][scheduling-1][monitorLogger][][][][{"metric_1":"48","metric_2":"0.12707698","metric_3":"0.10703160406019138"}][]
+[INFO][2020-05-20 18:21:54.891][scheduling-1][monitorLogger][][][][{"metric_1":"54","metric_2":"0.81115276","metric_3":"0.5678461164917024"}][]
+[INFO][2020-05-20 18:21:59.906][scheduling-1][monitorLogger][][][][{"metric_1":"60","metric_2":"0.0713166","metric_3":"0.5267010323463384"}][]
+[INFO][2020-05-20 18:22:04.897][scheduling-1][monitorLogger][][][][{"metric_1":"62","metric_2":"0.91287655","metric_3":"1.0702195753409263"}][]
+[INFO][2020-05-20 18:22:09.897][scheduling-1][monitorLogger][][][][{"metric_1":"71","metric_2":"0.27359903","metric_3":"0.8885975693883544"}][]
+[INFO][2020-05-20 18:22:14.898][scheduling-1][monitorLogger][][][][{"metric_1":"74","metric_2":"0.62792176","metric_3":"1.0400882474465765"}][]
+[INFO][2020-05-20 18:22:19.898][scheduling-1][monitorLogger][][][][{"metric_1":"78","metric_2":"0.46841526","metric_3":"-1.0186666932464346"}][]
+[INFO][2020-05-20 18:22:24.893][scheduling-1][monitorLogger][][][][{"metric_1":"80","metric_2":"0.80855536","metric_3":"0.6401055775756483"}][]
+[INFO][2020-05-20 18:22:29.893][scheduling-1][monitorLogger][][][][{"metric_1":"80","metric_2":"0.40901262","metric_3":"-0.8061545402759582"}][]
+[INFO][2020-05-20 18:22:34.894][scheduling-1][monitorLogger][][][][{"metric_1":"80","metric_2":"0.19806671","metric_3":"-0.2389541168860521"}][]
+[INFO][2020-05-20 18:22:39.894][scheduling-1][monitorLogger][][][][{"metric_1":"83","metric_2":"0.04951769","metric_3":"-0.041543625763393884"}][]
+[INFO][2020-05-20 18:22:44.895][scheduling-1][monitorLogger][][][][{"metric_1":"90","metric_2":"0.48670214","metric_3":"-0.5809507892409403"}][]
+[INFO][2020-05-20 18:22:49.896][scheduling-1][monitorLogger][][][][{"metric_1":"99","metric_2":"0.096244276","metric_3":"-1.825130169690444"}][]
+[INFO][2020-05-20 18:22:54.905][scheduling-1][monitorLogger][][][][{"metric_1":"108","metric_2":"0.8536597","metric_3":"-1.1913967573222413"}][]
+[INFO][2020-05-20 18:22:59.905][scheduling-1][monitorLogger][][][][{"metric_1":"111","metric_2":"0.3832997","metric_3":"-0.21507505959124096"}][]
+[INFO][2020-05-20 18:23:04.906][scheduling-1][monitorLogger][][][][{"metric_1":"112","metric_2":"0.3070594","metric_3":"0.3612122871006456"}][]
+[INFO][2020-05-20 18:23:09.906][scheduling-1][monitorLogger][][][][{"metric_1":"116","metric_2":"0.16503495","metric_3":"-0.6999863986332838"}][]
+[INFO][2020-05-20 18:23:14.891][scheduling-1][monitorLogger][][][][{"metric_1":"121","metric_2":"0.49642372","metric_3":"-0.6038280741088832"}][]
+[INFO][2020-05-20 18:23:19.892][scheduling-1][monitorLogger][][][][{"metric_1":"128","metric_2":"0.5178989","metric_3":"-1.7843016115180736"}][]
+[INFO][2020-05-20 18:23:24.905][scheduling-1][monitorLogger][][][][{"metric_1":"134","metric_2":"0.516767","metric_3":"0.3712730985259452"}][]
+[INFO][2020-05-20 18:23:29.906][scheduling-1][monitorLogger][][][][{"metric_1":"137","metric_2":"0.67591435","metric_3":"-0.21342555730527807"}][]
+[INFO][2020-05-20 18:23:34.903][scheduling-1][monitorLogger][][][][{"metric_1":"142","metric_2":"0.2119726","metric_3":"1.02083297817757"}][]
+[INFO][2020-05-20 18:23:39.903][scheduling-1][monitorLogger][][][][{"metric_1":"143","metric_2":"0.33814943","metric_3":"-0.45271259523003093"}][]
+[INFO][2020-05-20 18:23:44.904][scheduling-1][monitorLogger][][][][{"metric_1":"144","metric_2":"0.009583116","metric_3":"0.5333483384796587"}][]
+[INFO][2020-05-20 18:23:49.904][scheduling-1][monitorLogger][][][][{"metric_1":"153","metric_2":"0.30076885","metric_3":"0.7706215658432426"}][]
+[INFO][2020-05-20 18:23:54.899][scheduling-1][monitorLogger][][][][{"metric_1":"157","metric_2":"0.70163345","metric_3":"0.4049003857980025"}][]
+[INFO][2020-05-20 18:23:59.899][scheduling-1][monitorLogger][][][][{"metric_1":"165","metric_2":"0.48810416","metric_3":"0.9523815429669464"}][]

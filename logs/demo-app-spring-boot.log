@@ -1,0 +1,665 @@
+2020-05-20 17:23:15.661  INFO 1932 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 1932 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:23:15.665  INFO 1932 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:23:16.921  INFO 1932 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:23:17.338  INFO 1932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:23:17.351  INFO 1932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:23:17.351  INFO 1932 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:23:17.662  INFO 1932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:23:17.662  INFO 1932 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1932 ms
+2020-05-20 17:23:18.272  INFO 1932 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:23:18.553  INFO 1932 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:23:18.573  INFO 1932 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:23:18.659  INFO 1932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:23:18.664  INFO 1932 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.512 seconds (JVM running for 4.865)
+2020-05-20 17:23:18.669  INFO 1932 --- [scheduling-1] monitorLogger                            : [{"metric_1":"2","metric_2":"0.54226667","metric_3":"1.2341877626564257"}]
+2020-05-20 17:23:23.616  INFO 1932 --- [scheduling-1] monitorLogger                            : [{"metric_1":"8","metric_2":"0.6389982","metric_3":"-0.5494465092911321"}]
+2020-05-20 17:23:28.616  INFO 1932 --- [scheduling-1] monitorLogger                            : [{"metric_1":"12","metric_2":"0.6295173","metric_3":"-0.13991912814028046"}]
+2020-05-20 17:23:33.617  INFO 1932 --- [scheduling-1] monitorLogger                            : [{"metric_1":"15","metric_2":"0.30878448","metric_3":"1.5382289268494227"}]
+2020-05-20 17:23:38.620  INFO 1932 --- [scheduling-1] monitorLogger                            : [{"metric_1":"16","metric_2":"0.5341568","metric_3":"1.4716411902486797"}]
+2020-05-20 17:23:43.615  INFO 1932 --- [scheduling-1] monitorLogger                            : [{"metric_1":"25","metric_2":"0.11519015","metric_3":"1.41823445710228"}]
+2020-05-20 17:23:48.617  INFO 1932 --- [scheduling-1] monitorLogger                            : [{"metric_1":"28","metric_2":"0.39758688","metric_3":"-0.7243107344626922"}]
+2020-05-20 17:23:53.618  INFO 1932 --- [scheduling-1] monitorLogger                            : [{"metric_1":"28","metric_2":"0.6002463","metric_3":"-0.373096574523505"}]
+2020-05-20 17:23:58.618  INFO 1932 --- [scheduling-1] monitorLogger                            : [{"metric_1":"32","metric_2":"0.6970509","metric_3":"0.45345799829854244"}]
+2020-05-20 17:24:03.616  INFO 1932 --- [scheduling-1] monitorLogger                            : [{"metric_1":"33","metric_2":"0.32919067","metric_3":"-1.1593641387174272"}]
+2020-05-20 17:24:08.617  INFO 1932 --- [scheduling-1] monitorLogger                            : [{"metric_1":"40","metric_2":"0.6738925","metric_3":"1.2110090134163913"}]
+2020-05-20 17:24:13.615  INFO 1932 --- [scheduling-1] monitorLogger                            : [{"metric_1":"49","metric_2":"0.58891267","metric_3":"2.1470930707518714"}]
+2020-05-20 17:24:18.616  INFO 1932 --- [scheduling-1] monitorLogger                            : [{"metric_1":"51","metric_2":"0.029331505","metric_3":"2.0325649669627794"}]
+2020-05-20 17:42:23.554  INFO 13388 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 13388 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:42:23.554  INFO 13388 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:42:24.804  INFO 13388 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:42:25.148  INFO 13388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:42:25.163  INFO 13388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:42:25.163  INFO 13388 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:42:25.491  INFO 13388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:42:25.491  INFO 13388 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1875 ms
+2020-05-20 17:42:26.038  INFO 13388 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:42:26.288  INFO 13388 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:42:26.320  INFO 13388 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:42:26.382  INFO 13388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:42:26.382  INFO 13388 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.352 seconds (JVM running for 4.639)
+2020-05-20 17:42:26.398  INFO 13388 --- [scheduling-1] monitorLogger                            : [{"metric_1":"5","metric_2":"0.32266688","metric_3":"-1.3219254639553906"}]
+2020-05-20 17:42:31.367  INFO 13388 --- [scheduling-1] monitorLogger                            : [{"metric_1":"8","metric_2":"0.13157976","metric_3":"0.21175248752677203"}]
+2020-05-20 17:42:36.368  INFO 13388 --- [scheduling-1] monitorLogger                            : [{"metric_1":"9","metric_2":"0.7461055","metric_3":"2.1816998279015087"}]
+2020-05-20 17:42:40.848  INFO 5824 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 5824 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:42:40.848  INFO 5824 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:42:42.099  INFO 5824 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:42:42.442  INFO 5824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:42:42.458  INFO 5824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:42:42.458  INFO 5824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:42:42.802  INFO 5824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:42:42.802  INFO 5824 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1891 ms
+2020-05-20 17:42:43.413  INFO 5824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:42:43.710  INFO 5824 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:42:43.726  INFO 5824 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:42:43.819  INFO 5824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:42:43.819  INFO 5824 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.476 seconds (JVM running for 4.752)
+2020-05-20 17:42:43.819  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"5","metric_2":"0.36104077","metric_3":"0.3214355774665151"}]
+2020-05-20 17:42:48.784  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"7","metric_2":"0.40146708","metric_3":"-1.296248536185614"}]
+2020-05-20 17:42:53.787  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"10","metric_2":"0.2969041","metric_3":"-1.052988706918492"}]
+2020-05-20 17:42:58.787  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"13","metric_2":"0.17088503","metric_3":"0.7955173400087894"}]
+2020-05-20 17:43:03.788  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"21","metric_2":"0.8534022","metric_3":"0.6228536093311571"}]
+2020-05-20 17:43:08.788  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"27","metric_2":"0.532959","metric_3":"-0.1796213037665171"}]
+2020-05-20 17:43:13.783  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"36","metric_2":"0.44988513","metric_3":"-0.07921827733458124"}]
+2020-05-20 17:43:18.784  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"41","metric_2":"0.7244858","metric_3":"-0.20742061387954716"}]
+2020-05-20 17:43:23.784  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"43","metric_2":"0.16653597","metric_3":"-0.34100006449758524"}]
+2020-05-20 17:43:28.786  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"45","metric_2":"0.28590304","metric_3":"0.41968583342312615"}]
+2020-05-20 17:43:33.787  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"52","metric_2":"0.6558579","metric_3":"1.2069837825405472"}]
+2020-05-20 17:43:38.782  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"54","metric_2":"0.69271815","metric_3":"-1.2075786695306943"}]
+2020-05-20 17:43:43.781  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"61","metric_2":"0.18941754","metric_3":"0.4640794982310224"}]
+2020-05-20 17:43:48.783  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"68","metric_2":"0.07871431","metric_3":"1.3303277574873538"}]
+2020-05-20 17:43:53.782  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"71","metric_2":"0.39428282","metric_3":"0.13714318570394704"}]
+2020-05-20 17:43:58.783  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"78","metric_2":"0.07533014","metric_3":"-0.5666290504465641"}]
+2020-05-20 17:44:03.782  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"84","metric_2":"0.12983489","metric_3":"-2.117217384574521"}]
+2020-05-20 17:44:08.782  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"88","metric_2":"0.7334504","metric_3":"0.6025988822929687"}]
+2020-05-20 17:44:13.782  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"97","metric_2":"0.027739644","metric_3":"-0.10080859212211032"}]
+2020-05-20 17:44:18.782  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"100","metric_2":"0.2190761","metric_3":"-0.1587870887259214"}]
+2020-05-20 17:44:23.786  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"106","metric_2":"0.72987455","metric_3":"1.249016343347872"}]
+2020-05-20 17:44:28.786  INFO 5824 --- [scheduling-1] monitorLogger                            : [{"metric_1":"112","metric_2":"0.18181837","metric_3":"-0.0837722301069862"}]
+2020-05-20 17:44:35.089  INFO 1068 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 1068 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:44:35.089  INFO 1068 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:44:36.324  INFO 1068 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:44:36.668  INFO 1068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:44:36.683  INFO 1068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:44:36.683  INFO 1068 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:44:36.996  INFO 1068 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:44:36.996  INFO 1068 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1844 ms
+2020-05-20 17:44:37.637  INFO 1068 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:44:37.934  INFO 1068 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:44:37.965  INFO 1068 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:44:38.059  INFO 1068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:44:38.059  INFO 1068 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.479 seconds (JVM running for 4.795)
+2020-05-20 17:44:38.059  INFO 1068 --- [scheduling-1] monitorLogger                            : [{"metric_1":"2","metric_2":"0.90306556","metric_3":"1.3654568286242936"}]
+2020-05-20 17:44:43.012  INFO 1068 --- [scheduling-1] monitorLogger                            : [{"metric_1":"8","metric_2":"0.6009141","metric_3":"-0.2987655933924684"}]
+2020-05-20 17:44:48.013  INFO 1068 --- [scheduling-1] monitorLogger                            : [{"metric_1":"13","metric_2":"0.43960387","metric_3":"-1.9410552780886747"}]
+2020-05-20 17:44:53.013  INFO 1068 --- [scheduling-1] monitorLogger                            : [{"metric_1":"22","metric_2":"0.20256364","metric_3":"0.4591236876161873"}]
+2020-05-20 17:44:58.014  INFO 1068 --- [scheduling-1] monitorLogger                            : [{"metric_1":"22","metric_2":"0.6128637","metric_3":"-0.12251946258397794"}]
+2020-05-20 17:45:04.843  INFO 3760 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 3760 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:45:04.859  INFO 3760 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:45:06.062  INFO 3760 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:45:06.421  INFO 3760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:45:06.437  INFO 3760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:45:06.437  INFO 3760 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:45:06.750  INFO 3760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:45:06.750  INFO 3760 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1829 ms
+2020-05-20 17:45:07.328  INFO 3760 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:45:07.609  INFO 3760 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:45:07.625  INFO 3760 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:45:07.734  INFO 3760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:45:07.734  INFO 3760 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.434 seconds (JVM running for 4.781)
+2020-05-20 17:45:07.734  INFO 3760 --- [scheduling-1] monitorLogger                            : [{"metric_1":"3","metric_2":"0.86128795","metric_3":"-0.11802686351553668"}]
+2020-05-20 17:45:12.704  INFO 3760 --- [scheduling-1] monitorLogger                            : [{"metric_1":"4","metric_2":"0.6765497","metric_3":"-0.49833307835115304"}]
+2020-05-20 17:45:17.688  INFO 3760 --- [scheduling-1] monitorLogger                            : [{"metric_1":"12","metric_2":"0.23880607","metric_3":"2.210701033802738"}]
+2020-05-20 17:45:22.699  INFO 3760 --- [scheduling-1] monitorLogger                            : [{"metric_1":"14","metric_2":"0.98781025","metric_3":"0.7313160388456862"}]
+2020-05-20 17:45:27.699  INFO 3760 --- [scheduling-1] monitorLogger                            : [{"metric_1":"17","metric_2":"0.8339166","metric_3":"-0.1710824483434887"}]
+2020-05-20 17:45:32.405  INFO 13032 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 13032 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:45:32.420  INFO 13032 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:45:33.639  INFO 13032 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:45:34.014  INFO 13032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:45:34.030  INFO 13032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:45:34.030  INFO 13032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:45:34.327  INFO 13032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:45:34.327  INFO 13032 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1844 ms
+2020-05-20 17:45:34.889  INFO 13032 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:45:35.171  INFO 13032 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:45:35.202  INFO 13032 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:45:35.280  INFO 13032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:45:35.296  INFO 13032 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.401 seconds (JVM running for 4.706)
+2020-05-20 17:45:35.296  INFO 13032 --- [scheduling-1] monitorLogger                            : [{"metric_1":"8","metric_2":"0.83251977","metric_3":"1.2700708514849226"}]
+2020-05-20 17:45:40.265  INFO 13032 --- [scheduling-1] monitorLogger                            : [{"metric_1":"13","metric_2":"0.46185398","metric_3":"-0.1504463008932934"}]
+2020-05-20 17:45:47.446  INFO 13184 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 13184 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:45:47.446  INFO 13184 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:45:48.696  INFO 13184 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:45:49.055  INFO 13184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:45:49.071  INFO 13184 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:45:49.071  INFO 13184 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:45:49.384  INFO 13184 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:45:49.384  INFO 13184 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1876 ms
+2020-05-20 17:45:49.960  INFO 13184 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:45:50.257  INFO 13184 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:45:50.289  INFO 13184 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:45:50.382  INFO 13184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:45:50.382  INFO 13184 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.474 seconds (JVM running for 4.797)
+2020-05-20 17:45:50.398  INFO 13184 --- [scheduling-1] monitorLogger                            : [{"metric_1":"9","metric_2":"0.76279014","metric_3":"-0.998715202947134"}]
+2020-05-20 17:45:55.344  INFO 13184 --- [scheduling-1] monitorLogger                            : [{"metric_1":"10","metric_2":"0.26486707","metric_3":"-0.002859900809911739"}]
+2020-05-20 17:46:00.350  INFO 13184 --- [scheduling-1] monitorLogger                            : [{"metric_1":"16","metric_2":"0.059360564","metric_3":"-0.7579369407060244"}]
+2020-05-20 17:46:05.351  INFO 13184 --- [scheduling-1] monitorLogger                            : [{"metric_1":"25","metric_2":"0.5407488","metric_3":"0.49803558221052635"}]
+2020-05-20 17:46:10.344  INFO 13184 --- [scheduling-1] monitorLogger                            : [{"metric_1":"30","metric_2":"0.2639289","metric_3":"1.012209832590808"}]
+2020-05-20 17:46:15.350  INFO 13184 --- [scheduling-1] monitorLogger                            : [{"metric_1":"38","metric_2":"0.011796415","metric_3":"0.19136359069450407"}]
+2020-05-20 17:46:20.351  INFO 13184 --- [scheduling-1] monitorLogger                            : [{"metric_1":"44","metric_2":"0.35057485","metric_3":"-1.0855012549247842"}]
+2020-05-20 17:46:25.351  INFO 13184 --- [scheduling-1] monitorLogger                            : [{"metric_1":"46","metric_2":"0.86544895","metric_3":"-1.3927960159856934"}]
+2020-05-20 17:46:30.336  INFO 13184 --- [scheduling-1] monitorLogger                            : [{"metric_1":"48","metric_2":"0.08431411","metric_3":"2.3233948696700386"}]
+2020-05-20 17:46:37.336  INFO 6732 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 6732 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:46:37.336  INFO 6732 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:46:38.570  INFO 6732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:46:38.914  INFO 6732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:46:38.930  INFO 6732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:46:38.930  INFO 6732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:46:39.211  INFO 6732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:46:39.211  INFO 6732 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1813 ms
+2020-05-20 17:46:39.742  INFO 6732 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:46:39.992  INFO 6732 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:46:40.008  INFO 6732 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:46:40.102  INFO 6732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:46:40.102  INFO 6732 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.277 seconds (JVM running for 4.565)
+2020-05-20 17:46:40.102  INFO 6732 --- [scheduling-1] monitorLogger                            : [{"metric_1":"2","metric_2":"0.24753153","metric_3":"-0.9111767148585603"}]
+2020-05-20 17:46:45.071  INFO 6732 --- [scheduling-1] monitorLogger                            : [{"metric_1":"2","metric_2":"0.37537634","metric_3":"-0.10346021512289019"}]
+2020-05-20 17:46:50.967  INFO 1964 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 1964 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:46:50.983  INFO 1964 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:46:52.327  INFO 1964 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:46:52.717  INFO 1964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:46:52.733  INFO 1964 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:46:52.733  INFO 1964 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:46:53.045  INFO 1964 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:46:53.045  INFO 1964 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2000 ms
+2020-05-20 17:46:53.624  INFO 1964 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:46:53.889  INFO 1964 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:46:53.905  INFO 1964 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:46:53.983  INFO 1964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:46:53.983  INFO 1964 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.542 seconds (JVM running for 4.878)
+2020-05-20 17:46:53.983  INFO 1964 --- [scheduling-1] monitorLogger                            : [{"metric_1":"7","metric_2":"0.6935972","metric_3":"-0.1618515541071282"}]
+2020-05-20 17:46:58.948  INFO 1964 --- [scheduling-1] monitorLogger                            : [{"metric_1":"11","metric_2":"0.9094977","metric_3":"-1.152026331582978"}]
+2020-05-20 17:47:03.953  INFO 1964 --- [scheduling-1] monitorLogger                            : [{"metric_1":"12","metric_2":"0.25000972","metric_3":"-0.24307611406726762"}]
+2020-05-20 17:47:08.955  INFO 1964 --- [scheduling-1] monitorLogger                            : [{"metric_1":"17","metric_2":"0.19658375","metric_3":"0.8726665502101286"}]
+2020-05-20 17:47:13.961  INFO 1964 --- [scheduling-1] monitorLogger                            : [{"metric_1":"19","metric_2":"0.8941628","metric_3":"-0.5300488611796036"}]
+2020-05-20 17:47:18.948  INFO 1964 --- [scheduling-1] monitorLogger                            : [{"metric_1":"26","metric_2":"0.6827793","metric_3":"-0.7815472529740433"}]
+2020-05-20 17:47:23.954  INFO 1964 --- [scheduling-1] monitorLogger                            : [{"metric_1":"26","metric_2":"0.8890091","metric_3":"0.5626632287913851"}]
+2020-05-20 17:47:28.957  INFO 1964 --- [scheduling-1] monitorLogger                            : [{"metric_1":"35","metric_2":"0.16613132","metric_3":"-0.4610400707424013"}]
+2020-05-20 17:47:33.957  INFO 1964 --- [scheduling-1] monitorLogger                            : [{"metric_1":"36","metric_2":"0.26612926","metric_3":"0.01656198960291393"}]
+2020-05-20 17:47:38.958  INFO 1964 --- [scheduling-1] monitorLogger                            : [{"metric_1":"39","metric_2":"0.493015","metric_3":"-0.22191875705679234"}]
+2020-05-20 17:47:43.958  INFO 1964 --- [scheduling-1] monitorLogger                            : [{"metric_1":"40","metric_2":"0.66814274","metric_3":"0.60873516311879"}]
+2020-05-20 17:47:51.410  INFO 6124 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 6124 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:47:51.425  INFO 6124 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:47:52.660  INFO 6124 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:47:53.003  INFO 6124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:47:53.019  INFO 6124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:47:53.019  INFO 6124 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:47:53.332  INFO 6124 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:47:53.332  INFO 6124 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1860 ms
+2020-05-20 17:47:53.894  INFO 6124 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:47:54.144  INFO 6124 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:47:54.160  INFO 6124 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:47:54.254  INFO 6124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:47:54.254  INFO 6124 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.332 seconds (JVM running for 4.642)
+2020-05-20 17:47:54.254  INFO 6124 --- [scheduling-1] monitorLogger                            : [{"metric_1":"5","metric_2":"0.85045344","metric_3":"-0.2473184866168462"}]
+2020-05-20 17:47:59.223  INFO 6124 --- [scheduling-1] monitorLogger                            : [{"metric_1":"13","metric_2":"0.16307795","metric_3":"-1.0379793255859067"}]
+2020-05-20 17:48:05.333  INFO 13804 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 13804 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:48:05.333  INFO 13804 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:48:06.536  INFO 13804 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:48:06.864  INFO 13804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:48:06.880  INFO 13804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:48:06.880  INFO 13804 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:48:07.177  INFO 13804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:48:07.177  INFO 13804 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1766 ms
+2020-05-20 17:48:07.739  INFO 13804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:48:08.005  INFO 13804 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:48:08.036  INFO 13804 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:48:08.114  INFO 13804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:48:08.114  INFO 13804 --- [scheduling-1] monitorLogger                            : [{"metric_1":"3","metric_2":"0.45347267","metric_3":"-0.9097222677578171"}]
+2020-05-20 17:48:08.114  INFO 13804 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.294 seconds (JVM running for 4.57)
+2020-05-20 17:48:13.084  INFO 13804 --- [scheduling-1] monitorLogger                            : [{"metric_1":"7","metric_2":"0.35503256","metric_3":"-0.733595415249803"}]
+2020-05-20 17:48:18.089  INFO 13804 --- [scheduling-1] monitorLogger                            : [{"metric_1":"7","metric_2":"0.9100469","metric_3":"1.662848883824248"}]
+2020-05-20 17:48:23.090  INFO 13804 --- [scheduling-1] monitorLogger                            : [{"metric_1":"14","metric_2":"0.6739776","metric_3":"0.6035441956424903"}]
+2020-05-20 17:48:28.090  INFO 13804 --- [scheduling-1] monitorLogger                            : [{"metric_1":"19","metric_2":"0.7844","metric_3":"2.01147494865683"}]
+2020-05-20 17:48:33.091  INFO 13804 --- [scheduling-1] monitorLogger                            : [{"metric_1":"20","metric_2":"0.49169278","metric_3":"-0.29172185202579576"}]
+2020-05-20 17:48:38.091  INFO 13804 --- [scheduling-1] monitorLogger                            : [{"metric_1":"20","metric_2":"0.988127","metric_3":"1.212611657483247"}]
+2020-05-20 17:48:43.092  INFO 13804 --- [scheduling-1] monitorLogger                            : [{"metric_1":"29","metric_2":"0.56148344","metric_3":"-0.798357232724243"}]
+2020-05-20 17:48:48.092  INFO 13804 --- [scheduling-1] monitorLogger                            : [{"metric_1":"37","metric_2":"0.67876565","metric_3":"-0.4089542125901091"}]
+2020-05-20 17:48:53.099  INFO 13804 --- [scheduling-1] monitorLogger                            : [{"metric_1":"37","metric_2":"0.104583085","metric_3":"-0.45374796466963746"}]
+2020-05-20 17:48:58.960  INFO 9776 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 9776 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:48:58.975  INFO 9776 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:49:00.510  INFO 9776 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:49:01.432  INFO 9776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:49:01.432  INFO 9776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:49:01.448  INFO 9776 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:49:01.760  INFO 9776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:49:01.760  INFO 9776 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2738 ms
+2020-05-20 17:49:02.276  INFO 9776 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:49:02.542  INFO 9776 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:49:02.557  INFO 9776 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:49:02.651  INFO 9776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:49:02.651  INFO 9776 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 4.191 seconds (JVM running for 5.552)
+2020-05-20 17:49:02.667  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"5","metric_2":"0.4083984","metric_3":"-0.831532340651495"}]
+2020-05-20 17:49:07.620  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"10","metric_2":"0.44694334","metric_3":"-0.8812333142522809"}]
+2020-05-20 17:49:12.621  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"12","metric_2":"0.8726806","metric_3":"-0.07785649509212157"}]
+2020-05-20 17:49:17.622  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"18","metric_2":"0.20954335","metric_3":"1.085283261139405"}]
+2020-05-20 17:49:22.628  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"26","metric_2":"0.90460926","metric_3":"-1.10566928607215"}]
+2020-05-20 17:49:27.620  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"29","metric_2":"0.4264474","metric_3":"-0.8066260691012378"}]
+2020-05-20 17:49:32.631  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"31","metric_2":"0.08132291","metric_3":"0.8829042604436461"}]
+2020-05-20 17:49:37.631  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"34","metric_2":"0.42572528","metric_3":"0.6815189827211163"}]
+2020-05-20 17:49:42.616  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"39","metric_2":"0.46313208","metric_3":"-1.3012962996903144"}]
+2020-05-20 17:49:47.617  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"46","metric_2":"0.36636811","metric_3":"0.6046543621109174"}]
+2020-05-20 17:49:52.625  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"49","metric_2":"0.07543564","metric_3":"0.045242361119137715"}]
+2020-05-20 17:49:57.626  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"49","metric_2":"0.81738514","metric_3":"-1.4461952001708007"}]
+2020-05-20 17:50:02.626  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"50","metric_2":"0.68678546","metric_3":"1.2454770070567065"}]
+2020-05-20 17:50:07.620  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"50","metric_2":"0.3640415","metric_3":"-1.0198807148741504"}]
+2020-05-20 17:50:12.620  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"52","metric_2":"0.21497613","metric_3":"-1.1109385356023103"}]
+2020-05-20 17:50:17.621  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"56","metric_2":"0.53178144","metric_3":"0.04396484686842505"}]
+2020-05-20 17:50:22.622  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"57","metric_2":"0.7398023","metric_3":"0.31079416030193474"}]
+2020-05-20 17:50:27.622  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"61","metric_2":"0.80978626","metric_3":"1.1063816579371017"}]
+2020-05-20 17:50:32.623  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"65","metric_2":"0.5745759","metric_3":"-0.29794622776465407"}]
+2020-05-20 17:50:37.623  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"73","metric_2":"0.120054245","metric_3":"-0.04171016112419293"}]
+2020-05-20 17:50:42.625  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"73","metric_2":"0.18893278","metric_3":"-0.42182367028299295"}]
+2020-05-20 17:50:47.625  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"76","metric_2":"0.6865813","metric_3":"-0.9070472263602553"}]
+2020-05-20 17:50:52.618  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"78","metric_2":"0.38081998","metric_3":"0.7463853549442346"}]
+2020-05-20 17:50:57.619  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"83","metric_2":"0.89534235","metric_3":"1.4026858925148769"}]
+2020-05-20 17:51:02.619  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"85","metric_2":"0.48272496","metric_3":"0.3692961932780953"}]
+2020-05-20 17:51:07.621  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"88","metric_2":"0.21696305","metric_3":"-0.3344304435278783"}]
+2020-05-20 17:51:12.622  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"96","metric_2":"0.033848763","metric_3":"-0.5095886608454246"}]
+2020-05-20 17:51:17.622  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"101","metric_2":"0.59909415","metric_3":"-0.1300818298848528"}]
+2020-05-20 17:51:22.623  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"102","metric_2":"0.2458362","metric_3":"-1.4609157046500265"}]
+2020-05-20 17:51:27.623  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"103","metric_2":"0.56344944","metric_3":"-0.2937889644888706"}]
+2020-05-20 17:51:32.631  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"112","metric_2":"0.5327265","metric_3":"-0.15940193630020796"}]
+2020-05-20 17:51:37.628  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"118","metric_2":"0.18545765","metric_3":"-0.1754559414785429"}]
+2020-05-20 17:51:42.624  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"126","metric_2":"0.7039389","metric_3":"0.013365701455483334"}]
+2020-05-20 17:51:47.618  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"130","metric_2":"0.42925954","metric_3":"0.20911635278666918"}]
+2020-05-20 17:51:52.626  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"134","metric_2":"0.7760611","metric_3":"-1.2018272294420083"}]
+2020-05-20 17:51:57.626  INFO 9776 --- [scheduling-1] monitorLogger                            : [{"metric_1":"136","metric_2":"0.8621159","metric_3":"-0.5703958502005346"}]
+2020-05-20 17:52:04.757  INFO 7640 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 7640 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:52:04.757  INFO 7640 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:52:06.022  INFO 7640 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:52:06.382  INFO 7640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:52:06.397  INFO 7640 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:52:06.397  INFO 7640 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:52:06.710  INFO 7640 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:52:06.710  INFO 7640 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1891 ms
+2020-05-20 17:52:07.226  INFO 7640 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:52:07.491  INFO 7640 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:52:07.507  INFO 7640 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:52:07.585  INFO 7640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:52:07.601  INFO 7640 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.371 seconds (JVM running for 4.649)
+2020-05-20 17:52:07.601  INFO 7640 --- [scheduling-1] monitorLogger                            : [{"metric_1":"1","metric_2":"0.3059004","metric_3":"-0.05586863858539098"}]
+2020-05-20 17:52:12.570  INFO 7640 --- [scheduling-1] monitorLogger                            : [{"metric_1":"6","metric_2":"0.056075156","metric_3":"0.36517080781870487"}]
+2020-05-20 17:52:17.555  INFO 7640 --- [scheduling-1] monitorLogger                            : [{"metric_1":"11","metric_2":"0.86598265","metric_3":"0.8822003525202923"}]
+2020-05-20 17:52:25.502  INFO 236 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 236 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:52:25.502  INFO 236 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:52:26.784  INFO 236 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:52:27.143  INFO 236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:52:27.159  INFO 236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:52:27.159  INFO 236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:52:27.471  INFO 236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:52:27.471  INFO 236 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1906 ms
+2020-05-20 17:52:28.034  INFO 236 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:52:28.284  INFO 236 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:52:28.300  INFO 236 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:52:28.378  INFO 236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:52:28.378  INFO 236 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.337 seconds (JVM running for 4.644)
+2020-05-20 17:52:28.393  INFO 236 --- [scheduling-1] monitorLogger                            : [{"metric_1":"5","metric_2":"0.30657405","metric_3":"-0.47984514362520136"}]
+2020-05-20 17:52:33.347  INFO 236 --- [scheduling-1] monitorLogger                            : [{"metric_1":"13","metric_2":"0.46696538","metric_3":"0.27247703547025537"}]
+2020-05-20 17:52:38.349  INFO 236 --- [scheduling-1] monitorLogger                            : [{"metric_1":"20","metric_2":"0.903337","metric_3":"-0.21436541061895367"}]
+2020-05-20 17:53:10.178  INFO 2828 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 2828 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:53:10.194  INFO 2828 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:53:11.335  INFO 2828 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:53:11.694  INFO 2828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:53:11.694  INFO 2828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:53:11.694  INFO 2828 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:53:12.007  INFO 2828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:53:12.007  INFO 2828 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1751 ms
+2020-05-20 17:53:12.569  INFO 2828 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:53:12.835  INFO 2828 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:53:12.850  INFO 2828 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:53:12.944  INFO 2828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:53:12.944  INFO 2828 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.221 seconds (JVM running for 4.518)
+2020-05-20 17:53:12.944  INFO 2828 --- [scheduling-1] monitorLogger                            : [{"metric_1":"4","metric_2":"0.1475448","metric_3":"-0.9330123848866005"}]
+2020-05-20 17:53:17.914  INFO 2828 --- [scheduling-1] monitorLogger                            : [{"metric_1":"12","metric_2":"0.665528","metric_3":"0.6423604411534983"}]
+2020-05-20 17:53:22.906  INFO 2828 --- [scheduling-1] monitorLogger                            : [{"metric_1":"13","metric_2":"0.42564952","metric_3":"0.14615714983674144"}]
+2020-05-20 17:53:27.906  INFO 2828 --- [scheduling-1] monitorLogger                            : [{"metric_1":"20","metric_2":"0.23533595","metric_3":"1.3286311088263565"}]
+2020-05-20 17:53:32.907  INFO 2828 --- [scheduling-1] monitorLogger                            : [{"metric_1":"27","metric_2":"0.11953688","metric_3":"0.9853627598596201"}]
+2020-05-20 17:53:37.909  INFO 2828 --- [scheduling-1] monitorLogger                            : [{"metric_1":"29","metric_2":"0.6997819","metric_3":"-0.3361488351706998"}]
+2020-05-20 17:53:42.912  INFO 2828 --- [scheduling-1] monitorLogger                            : [{"metric_1":"36","metric_2":"0.01787132","metric_3":"0.1138003597387709"}]
+2020-05-20 17:53:47.912  INFO 2828 --- [scheduling-1] monitorLogger                            : [{"metric_1":"37","metric_2":"0.1488592","metric_3":"1.12230294304199"}]
+2020-05-20 17:53:52.918  INFO 2828 --- [scheduling-1] monitorLogger                            : [{"metric_1":"42","metric_2":"0.4596029","metric_3":"0.0596410088551829"}]
+2020-05-20 17:53:57.905  INFO 2828 --- [scheduling-1] monitorLogger                            : [{"metric_1":"42","metric_2":"0.8792685","metric_3":"-2.7986557061346304"}]
+2020-05-20 17:54:02.907  INFO 2828 --- [scheduling-1] monitorLogger                            : [{"metric_1":"50","metric_2":"0.5781721","metric_3":"-0.4571732030160336"}]
+2020-05-20 17:54:07.908  INFO 2828 --- [scheduling-1] monitorLogger                            : [{"metric_1":"54","metric_2":"0.27910924","metric_3":"0.46992776384410184"}]
+2020-05-20 17:54:12.437  INFO 4712 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 4712 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:54:12.437  INFO 4712 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:54:13.671  INFO 4712 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:54:14.015  INFO 4712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:54:14.015  INFO 4712 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:54:14.015  INFO 4712 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:54:14.359  INFO 4712 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:54:14.359  INFO 4712 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1860 ms
+2020-05-20 17:54:14.890  INFO 4712 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:54:15.187  INFO 4712 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:54:15.203  INFO 4712 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:54:15.296  INFO 4712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:54:15.296  INFO 4712 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.358 seconds (JVM running for 4.841)
+2020-05-20 17:54:15.312  INFO 4712 --- [scheduling-1] monitorLogger                            : [{"metric_1":"6","metric_2":"0.96808463","metric_3":"1.9304221752212019"}]
+2020-05-20 17:54:20.268  INFO 4712 --- [scheduling-1] monitorLogger                            : [{"metric_1":"8","metric_2":"0.34476036","metric_3":"-0.06074296093453799"}]
+2020-05-20 17:54:25.268  INFO 4712 --- [scheduling-1] monitorLogger                            : [{"metric_1":"9","metric_2":"0.5834311","metric_3":"-1.1952301006389894"}]
+2020-05-20 17:54:30.269  INFO 4712 --- [scheduling-1] monitorLogger                            : [{"metric_1":"18","metric_2":"0.82624036","metric_3":"-1.5705963662144324"}]
+2020-05-20 17:54:35.269  INFO 4712 --- [scheduling-1] monitorLogger                            : [{"metric_1":"27","metric_2":"0.5121357","metric_3":"0.056939602291578434"}]
+2020-05-20 17:54:40.270  INFO 4712 --- [scheduling-1] monitorLogger                            : [{"metric_1":"33","metric_2":"0.6224373","metric_3":"-0.27324189412892524"}]
+2020-05-20 17:54:45.271  INFO 4712 --- [scheduling-1] monitorLogger                            : [{"metric_1":"35","metric_2":"0.115297675","metric_3":"0.590375946932278"}]
+2020-05-20 17:54:53.048  INFO 14112 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 14112 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:54:53.048  INFO 14112 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:54:54.267  INFO 14112 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:54:54.626  INFO 14112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:54:54.642  INFO 14112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:54:54.642  INFO 14112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:54:54.939  INFO 14112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:54:54.939  INFO 14112 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1828 ms
+2020-05-20 17:54:55.486  INFO 14112 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:54:55.736  INFO 14112 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:54:55.752  INFO 14112 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:54:55.814  INFO 14112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:54:55.830  INFO 14112 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.276 seconds (JVM running for 4.576)
+2020-05-20 17:54:55.845  INFO 14112 --- [scheduling-1] monitorLogger                            : [{"metric_1":"5","metric_2":"0.47685248","metric_3":"-0.041096353058699374"}]
+2020-05-20 17:55:00.799  INFO 14112 --- [scheduling-1] monitorLogger                            : [{"metric_1":"14","metric_2":"0.6239841","metric_3":"0.7071205755891168"}]
+2020-05-20 17:55:05.799  INFO 14112 --- [scheduling-1] monitorLogger                            : [{"metric_1":"22","metric_2":"0.36747813","metric_3":"-0.7769181494458661"}]
+2020-05-20 17:55:10.800  INFO 14112 --- [scheduling-1] monitorLogger                            : [{"metric_1":"24","metric_2":"0.8701292","metric_3":"-0.6220515727814482"}]
+2020-05-20 17:55:15.796  INFO 14112 --- [scheduling-1] monitorLogger                            : [{"metric_1":"25","metric_2":"0.9455779","metric_3":"0.6570215157516663"}]
+2020-05-20 17:55:20.793  INFO 14112 --- [scheduling-1] monitorLogger                            : [{"metric_1":"27","metric_2":"0.54758394","metric_3":"0.10211231909772217"}]
+2020-05-20 17:55:25.794  INFO 14112 --- [scheduling-1] monitorLogger                            : [{"metric_1":"30","metric_2":"0.58882767","metric_3":"0.9583902223015652"}]
+2020-05-20 17:55:30.794  INFO 14112 --- [scheduling-1] monitorLogger                            : [{"metric_1":"32","metric_2":"0.29351878","metric_3":"1.1433537650565397"}]
+2020-05-20 17:55:35.795  INFO 14112 --- [scheduling-1] monitorLogger                            : [{"metric_1":"41","metric_2":"0.8739947","metric_3":"-0.38366511867185904"}]
+2020-05-20 17:55:44.013  INFO 9712 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 9712 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:55:44.013  INFO 9712 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:55:45.217  INFO 9712 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:55:45.560  INFO 9712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:55:45.576  INFO 9712 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:55:45.576  INFO 9712 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:55:45.857  INFO 9712 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:55:45.857  INFO 9712 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1781 ms
+2020-05-20 17:55:46.404  INFO 9712 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:55:46.670  INFO 9712 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:55:46.685  INFO 9712 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:55:46.764  INFO 9712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:55:46.764  INFO 9712 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.244 seconds (JVM running for 4.521)
+2020-05-20 17:55:46.779  INFO 9712 --- [scheduling-1] monitorLogger                            : [{"metric_1":"9","metric_2":"0.8542802","metric_3":"1.1067765499090534"}]
+2020-05-20 17:55:51.746  INFO 9712 --- [scheduling-1] monitorLogger                            : [{"metric_1":"17","metric_2":"0.086037576","metric_3":"-2.885763139330864"}]
+2020-05-20 17:55:56.746  INFO 9712 --- [scheduling-1] monitorLogger                            : [{"metric_1":"19","metric_2":"0.53287435","metric_3":"-0.6236639193521489"}]
+2020-05-20 17:56:01.747  INFO 9712 --- [scheduling-1] monitorLogger                            : [{"metric_1":"19","metric_2":"0.8707788","metric_3":"-0.6823691030068154"}]
+2020-05-20 17:56:33.917  INFO 12860 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 12860 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 17:56:33.917  INFO 12860 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 17:56:35.136  INFO 12860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 17:56:35.464  INFO 12860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 17:56:35.480  INFO 12860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 17:56:35.480  INFO 12860 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 17:56:35.777  INFO 12860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:56:35.777  INFO 12860 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1797 ms
+2020-05-20 17:56:36.292  INFO 12860 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 17:56:36.542  INFO 12860 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 17:56:36.574  INFO 12860 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 17:56:36.636  INFO 12860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 17:56:36.652  INFO 12860 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.242 seconds (JVM running for 4.542)
+2020-05-20 17:56:36.652  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"1","metric_2":"0.15128511","metric_3":"1.2539027549952686"}
+2020-05-20 17:56:41.621  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"6","metric_2":"0.8729994","metric_3":"-0.18229328842976933"}
+2020-05-20 17:56:46.622  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"15","metric_2":"0.49895775","metric_3":"-0.6994826806856399"}
+2020-05-20 17:56:51.622  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"22","metric_2":"0.33278507","metric_3":"-0.4156083413115213"}
+2020-05-20 17:56:56.624  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"26","metric_2":"0.38731694","metric_3":"0.28003531405948695"}
+2020-05-20 17:57:01.624  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"30","metric_2":"0.11400163","metric_3":"1.251953737183804"}
+2020-05-20 17:57:06.625  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"38","metric_2":"0.27316558","metric_3":"-0.18412731957185502"}
+2020-05-20 17:57:11.626  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"39","metric_2":"0.4621337","metric_3":"0.7610839090384932"}
+2020-05-20 17:57:16.626  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"45","metric_2":"0.65811515","metric_3":"-1.6226327441083124"}
+2020-05-20 17:57:21.627  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"49","metric_2":"0.16617978","metric_3":"-1.1908924204146527"}
+2020-05-20 17:57:26.627  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"53","metric_2":"0.9095809","metric_3":"-0.8115217302101425"}
+2020-05-20 17:57:31.628  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"59","metric_2":"0.80593354","metric_3":"1.4322255120737808"}
+2020-05-20 17:57:36.628  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"60","metric_2":"0.46360046","metric_3":"-0.10615283640730913"}
+2020-05-20 17:57:41.613  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"61","metric_2":"0.4138797","metric_3":"-0.3710183569913634"}
+2020-05-20 17:57:46.614  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"68","metric_2":"0.6783092","metric_3":"-2.3376799383994697"}
+2020-05-20 17:57:51.616  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"77","metric_2":"0.075125575","metric_3":"0.4274808818741726"}
+2020-05-20 17:57:56.614  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"78","metric_2":"0.8169288","metric_3":"-0.5850789915587077"}
+2020-05-20 17:58:01.614  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"85","metric_2":"0.06608307","metric_3":"0.7534948416384848"}
+2020-05-20 17:58:06.616  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"92","metric_2":"0.83061403","metric_3":"0.44013939790479645"}
+2020-05-20 17:58:11.616  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"96","metric_2":"0.21330559","metric_3":"0.8107536767942706"}
+2020-05-20 17:58:16.617  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"104","metric_2":"0.13555741","metric_3":"0.16641815632586818"}
+2020-05-20 17:58:21.625  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"107","metric_2":"0.036593676","metric_3":"-1.3063752389550476"}
+2020-05-20 17:58:26.621  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"111","metric_2":"0.16254824","metric_3":"1.712541315147181"}
+2020-05-20 17:58:31.621  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"116","metric_2":"0.25573504","metric_3":"-0.826161943153405"}
+2020-05-20 17:58:36.621  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"125","metric_2":"0.9884047","metric_3":"-0.643852119914479"}
+2020-05-20 17:58:41.614  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"131","metric_2":"0.22805727","metric_3":"0.8566897714211071"}
+2020-05-20 17:58:46.615  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"133","metric_2":"0.5377334","metric_3":"-1.007998802916637"}
+2020-05-20 17:58:51.615  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"141","metric_2":"0.49812305","metric_3":"1.202192004767896"}
+2020-05-20 17:58:56.623  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"142","metric_2":"0.19151008","metric_3":"-0.9658045293783826"}
+2020-05-20 17:59:01.622  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"149","metric_2":"0.20250791","metric_3":"0.24170088152695904"}
+2020-05-20 17:59:06.622  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"158","metric_2":"0.13162309","metric_3":"0.4827763352411095"}
+2020-05-20 17:59:11.623  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"161","metric_2":"0.3519115","metric_3":"0.7596531710384351"}
+2020-05-20 17:59:16.623  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"165","metric_2":"0.37767583","metric_3":"0.31104717805156207"}
+2020-05-20 17:59:21.624  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"171","metric_2":"0.7244331","metric_3":"1.35546627936397"}
+2020-05-20 17:59:26.624  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"172","metric_2":"0.306365","metric_3":"1.138423062783382"}
+2020-05-20 17:59:31.625  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"172","metric_2":"0.5565279","metric_3":"-0.3338003352577194"}
+2020-05-20 17:59:36.625  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"173","metric_2":"0.3292272","metric_3":"0.8175001985751468"}
+2020-05-20 17:59:41.626  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"179","metric_2":"0.4674695","metric_3":"0.7649828927870941"}
+2020-05-20 17:59:46.627  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"183","metric_2":"0.16415721","metric_3":"-0.8224072883586656"}
+2020-05-20 17:59:51.623  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"186","metric_2":"0.0600366","metric_3":"-0.5799030743475603"}
+2020-05-20 17:59:56.624  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"192","metric_2":"0.21839225","metric_3":"0.9539819089250172"}
+2020-05-20 18:00:01.622  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"192","metric_2":"0.3462535","metric_3":"-1.0261405638905552"}
+2020-05-20 18:00:06.621  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"197","metric_2":"0.37672883","metric_3":"-0.01762381186969815"}
+2020-05-20 18:00:11.625  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"200","metric_2":"0.03285086","metric_3":"-0.12697570295594746"}
+2020-05-20 18:00:16.625  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"202","metric_2":"0.9361388","metric_3":"-0.38972679095161955"}
+2020-05-20 18:00:21.615  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"211","metric_2":"0.29976422","metric_3":"0.20606736794827968"}
+2020-05-20 18:00:26.616  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"220","metric_2":"0.72132504","metric_3":"-0.058238836959954667"}
+2020-05-20 18:00:31.617  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"228","metric_2":"0.7003337","metric_3":"-0.17196254420714066"}
+2020-05-20 18:00:36.617  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"228","metric_2":"0.9749924","metric_3":"0.7483826399829391"}
+2020-05-20 18:00:41.618  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"229","metric_2":"0.7564282","metric_3":"-1.783164831956834"}
+2020-05-20 18:00:46.618  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"229","metric_2":"0.44454557","metric_3":"-1.5840320763950724"}
+2020-05-20 18:00:51.628  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"235","metric_2":"0.16550088","metric_3":"-1.1274777048705193"}
+2020-05-20 18:00:56.620  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"238","metric_2":"0.7599057","metric_3":"-0.18848697962649497"}
+2020-05-20 18:01:01.618  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"239","metric_2":"0.56466645","metric_3":"0.5112772558677505"}
+2020-05-20 18:01:06.619  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"240","metric_2":"0.6528885","metric_3":"0.8009853585543402"}
+2020-05-20 18:01:11.620  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"249","metric_2":"0.22955978","metric_3":"-0.005441465072104144"}
+2020-05-20 18:01:16.620  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"253","metric_2":"0.8672907","metric_3":"-1.6617588679642104"}
+2020-05-20 18:01:21.624  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"254","metric_2":"0.5014259","metric_3":"0.1962014643239381"}
+2020-05-20 18:01:26.625  INFO 12860 --- [scheduling-1] monitorLogger                            : {"metric_1":"259","metric_2":"0.12433517","metric_3":"0.6503383577330133"}
+2020-05-20 18:01:39.781  INFO 5080 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 5080 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 18:01:39.785  INFO 5080 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 18:01:41.116  INFO 5080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 18:01:41.517  INFO 5080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 18:01:41.517  INFO 5080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 18:01:41.517  INFO 5080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 18:01:41.870  INFO 5080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 18:01:41.870  INFO 5080 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2003 ms
+2020-05-20 18:01:42.485  INFO 5080 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 18:01:42.780  INFO 5080 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 18:01:42.801  INFO 5080 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 18:01:42.892  INFO 5080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 18:01:42.897  INFO 5080 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.697 seconds (JVM running for 5.173)
+2020-05-20 18:01:42.897  INFO 5080 --- [scheduling-1] monitorLogger                            : {"metric_1":"9","metric_2":"0.32129067","metric_3":"0.20599537930019857"}
+2020-05-20 18:01:47.844  INFO 5080 --- [scheduling-1] monitorLogger                            : {"metric_1":"13","metric_2":"0.462816","metric_3":"2.0901087885552427"}
+2020-05-20 18:01:52.856  INFO 5080 --- [scheduling-1] monitorLogger                            : {"metric_1":"14","metric_2":"0.5441473","metric_3":"0.7509236535136179"}
+2020-05-20 18:01:57.842  INFO 5080 --- [scheduling-1] monitorLogger                            : {"metric_1":"20","metric_2":"0.7392334","metric_3":"1.0706765590402205"}
+2020-05-20 18:02:02.849  INFO 5080 --- [scheduling-1] monitorLogger                            : {"metric_1":"27","metric_2":"0.032523334","metric_3":"-1.2522410279155267"}
+2020-05-20 18:02:07.850  INFO 5080 --- [scheduling-1] monitorLogger                            : {"metric_1":"35","metric_2":"0.38324457","metric_3":"-0.22556370851612867"}
+2020-05-20 18:02:12.842  INFO 5080 --- [scheduling-1] monitorLogger                            : {"metric_1":"35","metric_2":"0.057856917","metric_3":"0.09088595469595036"}
+2020-05-20 18:02:17.844  INFO 5080 --- [scheduling-1] monitorLogger                            : {"metric_1":"35","metric_2":"0.27762258","metric_3":"-1.7564572569162122"}
+2020-05-20 18:02:22.853  INFO 5080 --- [scheduling-1] monitorLogger                            : {"metric_1":"35","metric_2":"0.7125987","metric_3":"-0.45535357123440584"}
+2020-05-20 18:02:27.854  INFO 5080 --- [scheduling-1] monitorLogger                            : {"metric_1":"35","metric_2":"0.8414908","metric_3":"0.18023754862269628"}
+2020-05-20 18:02:32.841  INFO 5080 --- [scheduling-1] monitorLogger                            : {"metric_1":"42","metric_2":"0.31962305","metric_3":"-0.3824523868321878"}
+2020-05-20 18:02:39.859  INFO 10876 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Starting DemoSpringBootApplication on tongzhang-NB with PID 10876 (C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot\target\classes started by tongzhang in C:\Users\tongzhang\IdeaProjects\demo-app-spring-boot)
+2020-05-20 18:02:39.859  INFO 10876 --- [main] c.w.w.d.s.DemoSpringBootApplication      : The following profiles are active: dev
+2020-05-20 18:02:41.156  INFO 10876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 18:02:41.515  INFO 10876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 18:02:41.531  INFO 10876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 18:02:41.531  INFO 10876 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-20 18:02:41.890  INFO 10876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 18:02:41.890  INFO 10876 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1953 ms
+2020-05-20 18:02:42.594  INFO 10876 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 18:02:42.844  INFO 10876 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-20 18:02:42.875  INFO 10876 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-20 18:02:42.969  INFO 10876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 18:02:42.969  INFO 10876 --- [main] c.w.w.d.s.DemoSpringBootApplication      : Started DemoSpringBootApplication in 3.626 seconds (JVM running for 4.957)
+2020-05-20 18:02:42.969  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"2","metric_2":"0.049972355","metric_3":"-0.5434848252297131"}
+2020-05-20 18:02:47.938  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"8","metric_2":"0.5400926","metric_3":"-0.4764232448458853"}
+2020-05-20 18:02:52.928  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"14","metric_2":"0.14464658","metric_3":"-2.788063661421893"}
+2020-05-20 18:02:57.930  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"17","metric_2":"0.8436883","metric_3":"-2.108908325205514"}
+2020-05-20 18:03:02.930  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"24","metric_2":"0.51219577","metric_3":"0.9904645086152342"}
+2020-05-20 18:03:07.931  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"27","metric_2":"0.8917232","metric_3":"-1.5910703703214473"}
+2020-05-20 18:03:12.932  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"28","metric_2":"0.52451843","metric_3":"-0.6526250386256599"}
+2020-05-20 18:03:17.932  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"32","metric_2":"0.92943496","metric_3":"0.8915198433236432"}
+2020-05-20 18:03:22.940  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"33","metric_2":"0.7047351","metric_3":"-1.8025230323643158"}
+2020-05-20 18:03:27.924  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"39","metric_2":"0.6902663","metric_3":"0.04593183143065307"}
+2020-05-20 18:03:32.934  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"44","metric_2":"0.09444147","metric_3":"1.568681028530898"}
+2020-05-20 18:03:37.934  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"53","metric_2":"0.6985884","metric_3":"-0.40065212991034665"}
+2020-05-20 18:03:42.935  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"57","metric_2":"0.7983737","metric_3":"0.5523780651306894"}
+2020-05-20 18:03:47.935  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"60","metric_2":"0.41393274","metric_3":"0.2683757023765843"}
+2020-05-20 18:03:52.935  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"60","metric_2":"0.07888347","metric_3":"0.752153503850587"}
+2020-05-20 18:03:57.936  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"61","metric_2":"0.30653864","metric_3":"0.6115187277474132"}
+2020-05-20 18:04:02.928  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"65","metric_2":"0.5240984","metric_3":"0.033418063934671415"}
+2020-05-20 18:04:07.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"71","metric_2":"0.9874925","metric_3":"1.8135985510303736"}
+2020-05-20 18:04:12.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"77","metric_2":"0.8569292","metric_3":"0.8701191188341388"}
+2020-05-20 18:04:17.930  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"85","metric_2":"0.1899994","metric_3":"1.1379735598679932"}
+2020-05-20 18:04:22.932  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"89","metric_2":"0.39375865","metric_3":"-1.0785304702341398"}
+2020-05-20 18:04:27.932  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"90","metric_2":"0.86114067","metric_3":"1.0625007204824732"}
+2020-05-20 18:04:32.933  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"91","metric_2":"0.07139802","metric_3":"-0.09445100823026849"}
+2020-05-20 18:04:37.933  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"99","metric_2":"0.99197775","metric_3":"1.020172337835808"}
+2020-05-20 18:04:42.934  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"104","metric_2":"0.036488473","metric_3":"0.5412685628097128"}
+2020-05-20 18:04:47.934  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"111","metric_2":"0.5995903","metric_3":"0.24031306420910112"}
+2020-05-20 18:04:52.930  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"119","metric_2":"0.5903286","metric_3":"-0.02490329889892951"}
+2020-05-20 18:04:57.931  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"120","metric_2":"0.71246004","metric_3":"0.09442694913337914"}
+2020-05-20 18:05:02.925  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"125","metric_2":"0.18550098","metric_3":"0.27505424384319127"}
+2020-05-20 18:05:07.926  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"134","metric_2":"0.22387636","metric_3":"-1.288181194211656"}
+2020-05-20 18:05:12.926  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"137","metric_2":"0.5540262","metric_3":"-0.8419591089298191"}
+2020-05-20 18:05:17.927  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"140","metric_2":"0.80047387","metric_3":"0.25158174578084247"}
+2020-05-20 18:05:22.927  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"145","metric_2":"0.28391916","metric_3":"-0.2424160828936649"}
+2020-05-20 18:05:27.928  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"146","metric_2":"0.03811699","metric_3":"0.6176495379460812"}
+2020-05-20 18:05:32.928  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"152","metric_2":"0.4983195","metric_3":"0.04500816528400056"}
+2020-05-20 18:05:37.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"153","metric_2":"0.12735504","metric_3":"-2.079780642036506"}
+2020-05-20 18:05:42.930  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"155","metric_2":"0.28283423","metric_3":"0.8943537209766085"}
+2020-05-20 18:05:47.930  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"160","metric_2":"0.088355124","metric_3":"-0.7331884529299897"}
+2020-05-20 18:05:52.925  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"164","metric_2":"0.60784906","metric_3":"1.235915190765314"}
+2020-05-20 18:05:57.925  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"169","metric_2":"0.42300755","metric_3":"-0.904381264102674"}
+2020-05-20 18:06:02.925  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"174","metric_2":"0.5666942","metric_3":"0.8612487968836264"}
+2020-05-20 18:06:07.928  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"177","metric_2":"0.21422106","metric_3":"-1.0220241123779412"}
+2020-05-20 18:06:12.928  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"183","metric_2":"0.6480854","metric_3":"-0.9561653606486104"}
+2020-05-20 18:06:17.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"188","metric_2":"0.048128664","metric_3":"-0.5989801810818861"}
+2020-05-20 18:06:22.933  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"197","metric_2":"0.7879614","metric_3":"0.21798208864765053"}
+2020-05-20 18:06:27.936  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"205","metric_2":"0.6682741","metric_3":"0.8183299494746081"}
+2020-05-20 18:06:32.937  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"213","metric_2":"0.9429563","metric_3":"1.343293460089252"}
+2020-05-20 18:06:37.937  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"220","metric_2":"0.6003626","metric_3":"-1.9181310159588143"}
+2020-05-20 18:06:42.938  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"226","metric_2":"0.8429025","metric_3":"1.1587524637746291"}
+2020-05-20 18:06:47.938  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"235","metric_2":"0.87238353","metric_3":"0.4564719514245348"}
+2020-05-20 18:06:52.931  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"237","metric_2":"0.8136712","metric_3":"-0.058527267065312596"}
+2020-05-20 18:06:57.932  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"238","metric_2":"0.1988293","metric_3":"0.6582640885583688"}
+2020-05-20 18:07:02.924  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"244","metric_2":"0.032175362","metric_3":"0.8841653044275918"}
+2020-05-20 18:07:07.925  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"246","metric_2":"0.26340145","metric_3":"-0.8541712296016278"}
+2020-05-20 18:07:12.925  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"249","metric_2":"0.34642273","metric_3":"0.7354927598385071"}
+2020-05-20 18:07:17.925  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"253","metric_2":"0.7002781","metric_3":"-1.6176375934104634"}
+2020-05-20 18:07:22.927  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"255","metric_2":"0.27297258","metric_3":"0.7394612214789152"}
+2020-05-20 18:07:27.927  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"264","metric_2":"0.6377966","metric_3":"0.30311052806985744"}
+2020-05-20 18:07:32.928  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"272","metric_2":"0.900595","metric_3":"-1.4387526823899448"}
+2020-05-20 18:07:37.928  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"273","metric_2":"0.115180254","metric_3":"1.0968917754703615"}
+2020-05-20 18:07:42.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"274","metric_2":"0.8539033","metric_3":"-0.9154707178492542"}
+2020-05-20 18:07:47.924  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"275","metric_2":"0.5511167","metric_3":"-0.7527940300999347"}
+2020-05-20 18:07:52.939  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"283","metric_2":"0.8590148","metric_3":"0.1221992310462443"}
+2020-05-20 18:07:57.939  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"286","metric_2":"0.1104697","metric_3":"-1.3353110323177813"}
+2020-05-20 18:08:02.924  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"290","metric_2":"0.8302145","metric_3":"-0.6811823166516539"}
+2020-05-20 18:08:07.925  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"297","metric_2":"0.3555097","metric_3":"1.4345040062011616"}
+2020-05-20 18:08:12.925  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"302","metric_2":"0.22737944","metric_3":"-1.0842607318563455"}
+2020-05-20 18:08:17.926  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"302","metric_2":"0.40756822","metric_3":"-0.08682907669914694"}
+2020-05-20 18:08:22.935  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"307","metric_2":"0.566656","metric_3":"-1.118440289629384"}
+2020-05-20 18:08:27.936  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"313","metric_2":"0.387569","metric_3":"1.5752323334323008"}
+2020-05-20 18:08:32.936  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"314","metric_2":"0.5466246","metric_3":"-2.3478094780433443"}
+2020-05-20 18:08:37.937  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"314","metric_2":"0.7631023","metric_3":"-1.1434756831398882"}
+2020-05-20 18:08:42.937  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"320","metric_2":"0.860192","metric_3":"-1.1293202125883"}
+2020-05-20 18:08:47.932  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"327","metric_2":"0.7481087","metric_3":"-1.5825700002957845"}
+2020-05-20 18:08:52.933  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"328","metric_2":"0.44064367","metric_3":"1.102426218994277"}
+2020-05-20 18:08:57.934  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"337","metric_2":"0.9117849","metric_3":"0.6382292819623158"}
+2020-05-20 18:09:02.936  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"338","metric_2":"0.36739963","metric_3":"0.9889748372342653"}
+2020-05-20 18:09:07.937  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"345","metric_2":"0.47187775","metric_3":"0.21158747518823104"}
+2020-05-20 18:09:12.934  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"351","metric_2":"0.9990307","metric_3":"1.318032647197174"}
+2020-05-20 18:09:17.937  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"352","metric_2":"0.6658674","metric_3":"0.22925220801011495"}
+2020-05-20 18:09:22.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"352","metric_2":"0.96493304","metric_3":"0.2643533877054369"}
+2020-05-20 18:09:27.928  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"359","metric_2":"0.67357236","metric_3":"-1.0465714575830212"}
+2020-05-20 18:09:32.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"363","metric_2":"0.12262541","metric_3":"-2.0523161800650915"}
+2020-05-20 18:09:37.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"370","metric_2":"0.3160535","metric_3":"0.40611819282074635"}
+2020-05-20 18:09:42.926  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"378","metric_2":"0.06965852","metric_3":"0.5575741881919665"}
+2020-05-20 18:09:47.927  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"379","metric_2":"0.309806","metric_3":"-0.8679936848243237"}
+2020-05-20 18:09:52.926  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"385","metric_2":"0.236435","metric_3":"1.0382245726625727"}
+2020-05-20 18:09:57.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"394","metric_2":"0.530637","metric_3":"-0.649326618122569"}
+2020-05-20 18:10:02.930  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"396","metric_2":"0.61239845","metric_3":"-0.8214379561244848"}
+2020-05-20 18:10:07.931  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"402","metric_2":"0.42608863","metric_3":"-0.03365191848215084"}
+2020-05-20 18:10:12.932  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"407","metric_2":"0.2134772","metric_3":"0.9511174758508549"}
+2020-05-20 18:10:17.932  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"415","metric_2":"0.27181774","metric_3":"-0.3232987665590693"}
+2020-05-20 18:10:22.939  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"418","metric_2":"0.21069598","metric_3":"-0.28821835366021076"}
+2020-05-20 18:10:27.924  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"418","metric_2":"0.40259844","metric_3":"0.7263532123251492"}
+2020-05-20 18:10:32.931  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"423","metric_2":"0.53332937","metric_3":"-0.04920373442342634"}
+2020-05-20 18:10:37.932  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"423","metric_2":"0.46273834","metric_3":"1.3565124211800816"}
+2020-05-20 18:10:42.932  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"430","metric_2":"0.42729515","metric_3":"0.3292543133306353"}
+2020-05-20 18:10:47.933  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"431","metric_2":"0.5899901","metric_3":"-0.10647472275566587"}
+2020-05-20 18:10:52.937  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"431","metric_2":"0.2154085","metric_3":"0.45493109707879165"}
+2020-05-20 18:10:57.937  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"434","metric_2":"0.57096356","metric_3":"-1.0230844807672743"}
+2020-05-20 18:11:02.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"439","metric_2":"0.77840847","metric_3":"-0.7329076929209429"}
+2020-05-20 18:11:07.931  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"442","metric_2":"0.48217934","metric_3":"0.7137054646624137"}
+2020-05-20 18:11:12.938  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"442","metric_2":"0.77959377","metric_3":"0.2630332290363949"}
+2020-05-20 18:11:17.938  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"442","metric_2":"0.20221162","metric_3":"-0.992921769309114"}
+2020-05-20 18:11:22.932  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"447","metric_2":"0.20623237","metric_3":"0.8014483740320008"}
+2020-05-20 18:11:27.933  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"448","metric_2":"0.9306062","metric_3":"-1.1876665263384736"}
+2020-05-20 18:11:32.930  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"452","metric_2":"0.7717227","metric_3":"-0.47131205886336486"}
+2020-05-20 18:11:37.938  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"453","metric_2":"0.7035935","metric_3":"-2.5053430529392378"}
+2020-05-20 18:11:42.939  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"458","metric_2":"0.031109035","metric_3":"-0.2677358952025562"}
+2020-05-20 18:11:47.939  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"464","metric_2":"0.9156677","metric_3":"0.04041286827553203"}
+2020-05-20 18:11:52.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"468","metric_2":"0.3903327","metric_3":"0.19358293869158752"}
+2020-05-20 18:11:57.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"470","metric_2":"0.59298676","metric_3":"-1.2484508744909883"}
+2020-05-20 18:12:02.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"475","metric_2":"0.31838435","metric_3":"0.8609204565212428"}
+2020-05-20 18:12:07.930  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"478","metric_2":"0.68570876","metric_3":"0.5295642300611061"}
+2020-05-20 18:12:12.931  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"480","metric_2":"0.62102187","metric_3":"-1.3644899774139363"}
+2020-05-20 18:12:17.931  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"487","metric_2":"0.9981642","metric_3":"1.4089044005762144"}
+2020-05-20 18:12:22.925  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"496","metric_2":"0.1421634","metric_3":"0.8242924423591108"}
+2020-05-20 18:12:27.926  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"500","metric_2":"0.11017096","metric_3":"1.2437043596514665"}
+2020-05-20 18:12:32.926  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"505","metric_2":"0.44880515","metric_3":"-1.199729659722461"}
+2020-05-20 18:12:37.927  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"506","metric_2":"0.7967306","metric_3":"1.6783185810347439"}
+2020-05-20 18:12:42.927  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"512","metric_2":"0.30223775","metric_3":"-0.41021331801231076"}
+2020-05-20 18:12:47.928  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"516","metric_2":"0.40736234","metric_3":"0.4953846359541356"}
+2020-05-20 18:12:52.928  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"521","metric_2":"0.115332544","metric_3":"0.7899581174113395"}
+2020-05-20 18:12:57.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"523","metric_2":"0.58974624","metric_3":"1.1267431045901704"}
+2020-05-20 18:13:02.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"528","metric_2":"0.6914821","metric_3":"0.3421484700617583"}
+2020-05-20 18:13:07.930  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"535","metric_2":"0.8630797","metric_3":"0.4235027083424524"}
+2020-05-20 18:13:12.937  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"536","metric_2":"0.7209077","metric_3":"1.7995884279964514"}
+2020-05-20 18:13:17.938  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"542","metric_2":"0.26519114","metric_3":"1.6780360189345263"}
+2020-05-20 18:13:22.934  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"543","metric_2":"0.14966375","metric_3":"0.22022316785325202"}
+2020-05-20 18:13:27.935  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"546","metric_2":"0.19637233","metric_3":"1.3365134090728192"}
+2020-05-20 18:13:32.935  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"550","metric_2":"0.46062863","metric_3":"1.4437242662328853"}
+2020-05-20 18:13:37.936  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"556","metric_2":"0.6623601","metric_3":"-0.5767444078653801"}
+2020-05-20 18:13:42.924  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"560","metric_2":"0.3471617","metric_3":"0.7433646929580496"}
+2020-05-20 18:13:47.925  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"567","metric_2":"0.12359148","metric_3":"-1.5556078135417695"}
+2020-05-20 18:13:52.925  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"570","metric_2":"0.4150194","metric_3":"2.1091767677656783"}
+2020-05-20 18:13:57.932  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"572","metric_2":"0.63818264","metric_3":"0.5131822874525288"}
+2020-05-20 18:14:02.936  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"574","metric_2":"0.98047143","metric_3":"0.42537399890302247"}
+2020-05-20 18:14:07.924  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"582","metric_2":"0.770158","metric_3":"-0.2703900700989215"}
+2020-05-20 18:14:12.925  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"584","metric_2":"0.5892066","metric_3":"1.3034570536040755"}
+2020-05-20 18:14:17.925  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"592","metric_2":"0.7677852","metric_3":"-1.0930542836822152"}
+2020-05-20 18:14:22.928  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"593","metric_2":"0.4331044","metric_3":"0.30850359909531394"}
+2020-05-20 18:14:27.930  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"595","metric_2":"0.5579497","metric_3":"-1.7301379812609459"}
+2020-05-20 18:14:32.931  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"597","metric_2":"0.07762033","metric_3":"0.5486600683477654"}
+2020-05-20 18:14:37.931  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"604","metric_2":"0.54392713","metric_3":"-0.6916451363482721"}
+2020-05-20 18:14:42.932  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"606","metric_2":"0.55376214","metric_3":"-0.182890287523197"}
+2020-05-20 18:14:47.932  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"615","metric_2":"0.30975932","metric_3":"-1.7734716426311425"}
+2020-05-20 18:14:52.926  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"620","metric_2":"0.10559398","metric_3":"0.20063468505975246"}
+2020-05-20 18:14:57.926  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"621","metric_2":"0.5359382","metric_3":"-0.3299818308395693"}
+2020-05-20 18:15:02.925  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"624","metric_2":"0.46223873","metric_3":"0.9611876159631707"}
+2020-05-20 18:15:07.934  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"632","metric_2":"0.64389336","metric_3":"-0.5429599258105456"}
+2020-05-20 18:15:12.934  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"633","metric_2":"0.81294733","metric_3":"-0.8792508572000557"}
+2020-05-20 18:15:17.935  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"635","metric_2":"0.7442868","metric_3":"-0.08444720016326936"}
+2020-05-20 18:15:22.938  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"644","metric_2":"0.3368172","metric_3":"1.4060603880684852"}
+2020-05-20 18:15:27.939  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"646","metric_2":"0.44281918","metric_3":"1.5593491972523454"}
+2020-05-20 18:15:32.939  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"653","metric_2":"0.061148345","metric_3":"-1.5884625991185586"}
+2020-05-20 18:15:37.939  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"659","metric_2":"0.7608582","metric_3":"-1.8417297553331677"}
+2020-05-20 18:15:42.924  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"662","metric_2":"0.12999934","metric_3":"0.5350385008307749"}
+2020-05-20 18:15:47.926  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"667","metric_2":"0.75906885","metric_3":"-0.018755267288374875"}
+2020-05-20 18:15:52.924  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"670","metric_2":"0.09404999","metric_3":"0.24819589380640492"}
+2020-05-20 18:15:57.924  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"673","metric_2":"0.18949455","metric_3":"1.0853186469718852"}
+2020-05-20 18:16:02.928  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"677","metric_2":"0.65791863","metric_3":"0.5718144323065276"}
+2020-05-20 18:16:07.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"678","metric_2":"0.036767066","metric_3":"-0.7250917972935813"}
+2020-05-20 18:16:12.929  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"685","metric_2":"0.40723038","metric_3":"0.2986418366738403"}
+2020-05-20 18:16:17.930  INFO 10876 --- [scheduling-1] monitorLogger                            : {"metric_1":"688","metric_2":"0.67153394","metric_3":"0.6394544575558573"}
